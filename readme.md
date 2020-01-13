@@ -31,10 +31,10 @@ cd src
 
 - run attack
 ```
-python demo_mlgcn_voc2007.py --adv_batch_size=10 --adv_method='ml_lp' --target_type='hide_single'
-python demo_mlgcn_voc2012.py --adv_batch_size=10 --adv_method='ml_lp' --target_type='hide_single'
-python demo_mlliw_voc2007.py --adv_batch_size=10 --adv_method='ml_lp' --target_type='hide_single'
-python demo_mlliw_voc2012.py --adv_batch_size=10 --adv_method='ml_lp' --target_type='hide_single'
+python demo_mlgcn_voc2007.py --adv_batch_size=10 --adv_method='mla_lp' --target_type='hide_single'
+python demo_mlgcn_voc2012.py --adv_batch_size=10 --adv_method='mla_lp' --target_type='hide_single'
+python demo_mlliw_voc2007.py --adv_batch_size=10 --adv_method='mla_lp' --target_type='hide_single'
+python demo_mlliw_voc2012.py --adv_batch_size=10 --adv_method='mla_lp' --target_type='hide_single'
 ```
 
 - test attack performance
@@ -42,8 +42,7 @@ python demo_mlliw_voc2012.py --adv_batch_size=10 --adv_method='ml_lp' --target_t
 <a id="download"/>
 
 ## Download Adversarial Data and Model
-[https://rec.ustc.edu.cn/share/f1179b90-35fd-11ea-8cd7-e7effca2b670](Adversarial Data and Model)
+[Adversarial Data and Model](https://rec.ustc.edu.cn/share/19a80830-3602-11ea-91d2-cf19be005ac6)
 
 ## Thanks
 - https://github.com/Megvii-Nanjing/ML-GCN
-- https://github.com/tensorflow/cleverhans/
